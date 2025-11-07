@@ -12,11 +12,13 @@
 
 /* Estilo para o título principal */
 h1 {
-    color: #fff;
+    color: #000000;
+    /* Corrigindo a cor do h1 para melhor visibilidade */
     margin-bottom: 30px;
     border-bottom: 2px solid #007bff;
     padding-bottom: 10px;
 }
+
 
 /* Estilo para o campo de entrada e o label */
 label {
