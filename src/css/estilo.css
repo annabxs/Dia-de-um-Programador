@@ -1,5 +1,6 @@
 /* Estilo básico para o corpo da página */
-.body {
+body {
+/* Corrigindo o seletor do body */
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
