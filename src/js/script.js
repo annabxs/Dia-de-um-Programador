@@ -8,7 +8,7 @@ function validaCampo() {
 }
 
 //funcao que adiciona a tarefa
-function adcionaTarefa() {
+function adicionarTarefa() {
   let linhas = document.getElementById('task');
   if (validaCampo()) {
     alert('Preencha a tarefa!');
@@ -31,7 +31,7 @@ function listarTarefas() {
   document.getElementById('lista').innerHTML = valor;
 }
 
-function removeTarefa() {
+function removerTarefa() {
   tarefas.pop();
   listarTarefas();
 }
