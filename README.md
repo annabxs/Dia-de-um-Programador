@@ -1,1 +1,0 @@
-# Dia-de-um-Programador
