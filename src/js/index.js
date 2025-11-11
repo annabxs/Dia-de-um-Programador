@@ -7,13 +7,13 @@ const bannerItems =[
 },
 {
     imagem: "assets/MagikaBanner2.png",
-    titulo: "Fantasias Infantis",
+    titulo: "Especiais Infantis",
     descricao: "Fantasias diversas para a diversão do seu filho!"
 },
 
 {
     imagem: "assets/MagikaBanner3.png",
-    titulo: "🤕",
+    titulo: "Super-heróis",
     descricao: "Magika - tornando sua fantasia realidade!"
 }
 

@@ -10,6 +10,8 @@ body{
     color: black;
 }
 
+
+
 .logo{
     width: 100px;
     height: 100px;
@@ -113,7 +115,7 @@ body{
     box-shadow: 100px;
     /* justify-content: center; */
     display: flex;
-    margin-left: 680px;
+    margin-left: 690px;
 }
 
 .logo-banner{
@@ -139,3 +141,60 @@ body{
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
+.titulo-cards{
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.item-fantasia{
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+    flex: 0 0 300px;
+    max-width: 250px;
+    order: 2;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    display: inline-flex;
+    grid-template-columns: 30px 60px;
+     margin-left: 30px;
+    flex-wrap: wrap;
+}
+
+.textofantasia{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagemfantasia{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #35326E;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 900px){
+
+}
+
