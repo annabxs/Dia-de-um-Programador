@@ -11,9 +11,9 @@ body{
 }
 
 .logo{
-    width: 150px;
-    height: 150px;
-    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
 }
 
 .cabecalho{
@@ -40,13 +40,15 @@ body{
 .cabecalho-menu li a{
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .banner{
-    background-image: url(/assets/disney.jpg);
+    background-image: url(/assets/MagikaBanner.png);
     background-size: cover;
-    height: 550px;
-    margin-top: 15px;
+    height: 400px;
+    /* width: 800px; */
+    /* margin-top: 15px; */
     /* margin-left: 350px; */
     background-position: center;
     display: flex;
@@ -55,5 +57,85 @@ body{
     text-align: center;
     position: relative;
     transition: background-image 1s ease-in-out;
-    color: #fff;
+    color: black;
+    font-size: 13px;
+    
+}
+
+.banner-overlay{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* camada que a sobreposição fique sempre sobre a imagem */
+}
+
+.banner::before{
+     content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: ; */
+    z-index: 1;
+}
+
+.descricao-banner{
+    /* width: 600px; */
+    position: relative;
+    z-index: 2;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+.texto-banner{
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.botão-banner{
+    background: rgb(200, 0.10,  0.110);;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    margin: 0 10px;
+    border: none;
+    /* height: 60px; */
+    /* width: 150px;  */
+    font-size: 1.3rem;
+    
+    box-shadow: 100px;
+    /* justify-content: center; */
+    display: flex;
+    margin-left: 680px;
+}
+
+.logo-banner{
+    height: 150px;
+    margin-top: 40px;
+    margin-right: 1px;
+}
+
+.botão-banner:hover {
+    box-shadow: 5px 5px 5px black;
+    transition: 0.5s;
+    transform: translateY(5px);
+    cursor: pointer;
+    /* transform: translate(5px); */
+    /* transform: scale(1000000%); */
+}
+
+.sessao-fantasias{
+    padding: 20px;
+}
+
+.sessao-titulo{
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
