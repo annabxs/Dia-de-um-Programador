@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #C2E4F0;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -12,40 +12,40 @@ body{
 
 
 
-.logo{
+.logo {
     width: 80px;
     height: 80px;
     margin-left: 70px;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: #35326E;
     padding: 20px;
 }
 
-.cabecalho-nav{
+.cabecalho-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cabecalho-menu{
+.cabecalho-menu {
     list-style: none;
     display: flex;
     margin-right: 500px;
 }
 
-.cabecalho-menu li{
+.cabecalho-menu li {
     margin-left: 50px;
 }
 
-.cabecalho-menu li a{
+.cabecalho-menu li a {
     color: white;
     text-decoration: none;
     font-size: 20px;
 }
 
-.banner{
+.banner {
     background-image: url(/assets/MagikaBanner.png);
     background-size: cover;
     height: 400px;
@@ -61,10 +61,10 @@ body{
     transition: background-image 1s ease-in-out;
     color: black;
     font-size: 13px;
-    
+
 }
 
-.banner-overlay{
+.banner-overlay {
     content: "";
     position: absolute;
     top: 0;
@@ -74,8 +74,8 @@ body{
     /* camada que a sobreposição fique sempre sobre a imagem */
 }
 
-.banner::before{
-     content: "";
+.banner::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -85,7 +85,7 @@ body{
     z-index: 1;
 }
 
-.descricao-banner{
+.descricao-banner {
     /* width: 600px; */
     position: relative;
     z-index: 2;
@@ -95,14 +95,15 @@ body{
     margin-top: -20px;
 }
 
-.texto-banner{
+.texto-banner {
     font-size: 2.3rem;
     margin-bottom: 20px;
     margin-top: 60px;
 }
 
-.botão-banner{
-    background: rgb(200, 0.10,  0.110);;
+.botão-banner {
+    background: rgb(200, 0.10, 0.110);
+    ;
     padding: 10px 20px;
     border-radius: 25px;
     color: white;
@@ -111,14 +112,14 @@ body{
     /* height: 60px; */
     /* width: 150px;  */
     font-size: 1.3rem;
-    
+
     box-shadow: 100px;
     /* justify-content: center; */
     display: flex;
-    margin-left: 690px;
+    margin-left: 707px;
 }
 
-.logo-banner{
+.logo-banner {
     height: 150px;
     margin-top: 40px;
     margin-right: 1px;
@@ -133,17 +134,17 @@ body{
     /* transform: scale(1000000%); */
 }
 
-.sessao-fantasias{
+.sessao-fantasias {
     padding: 20px;
 }
 
-.sessao-titulo{
+.sessao-titulo {
     font-size: 2rem;
     margin-bottom: 20px;
     margin-top: 10px;
 }
 
-.titulo-cards{
+.titulo-cards {
     margin-top: 30px;
     justify-content: center;
     display: flex;
@@ -156,7 +157,7 @@ body{
     justify-content: center;
 }
 
-.item-fantasia{
+.item-fantasia {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     padding: 20px;
@@ -170,18 +171,18 @@ body{
     flex-direction: column;
     display: inline-flex;
     grid-template-columns: 30px 60px;
-     margin-left: 30px;
+    margin-left: 30px;
     flex-wrap: wrap;
 }
 
-.textofantasia{
+.textofantasia {
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 10px;
 }
 
-.imagemfantasia{
+.imagemfantasia {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -189,7 +190,7 @@ body{
     width: 200px;
 }
 
-footer{
+footer {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -202,7 +203,4 @@ footer{
     margin-top: auto;
 }
 
-@media screen and (max-width: 900px){
-
-}
-
+@media screen and (max-width: 900px) {}

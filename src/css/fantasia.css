@@ -1,66 +1,66 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #C2E4F0;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
-.logo{
+.logo {
     width: 80px;
     height: 80px;
     margin-left: 70px;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: #35326E;
     padding: 20px;
 }
 
-.cabecalho-nav{
+.cabecalho-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cabecalho-menu{
+.cabecalho-menu {
     list-style: none;
     display: flex;
     margin-right: 500px;
 }
 
 
-.cabecalho-menu li{
+.cabecalho-menu li {
     margin-left: 50px;
 }
 
-.cabecalho-menu li a{
+.cabecalho-menu li a {
     color: white;
     text-decoration: none;
     font-size: 20px;
 }
 
-.sessao-fantasias{
+.sessao-fantasias {
     padding: 10px;
 }
 
-.sessao-titulo{
+.sessao-titulo {
     font-size: 2rem;
     margin-bottom: 10px;
 }
 
-.titulo-cards{
+.titulo-cards {
     margin-top: 30px;
     justify-content: center;
     display: flex;
     align-items: center;
 }
 
-.lista-fantasias{
+.lista-fantasias {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -68,29 +68,29 @@ body{
     margin-top: 40px;
 }
 
-.item-fantasia{
+.item-fantasia {
     background: #fff;
     border-radius: 20px;
     padding: 15px;
     width: 250px;
     text-align: center;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-.textofantasia{
+.textofantasia {
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.imagemfantasia{
+.imagemfantasia {
     width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 15px;
 }
 
-footer{
+footer {
     justify-content: center;
     align-items: center;
     display: flex;

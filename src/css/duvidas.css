@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C2E4F0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 70px;
+}
+
+.cabecalho {
+    background-color: #35326E;
+    padding: 20px;
+}
+
+.cabecalho-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-menu {
+    list-style: none;
+    display: flex;
+    margin-right: 500px;
+}
+
+.cabecalho-menu li {
+    margin-left: 50px;
+}
+
+.cabecalho-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.faq-container{
+    width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.faq-item{
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.faq-pergunta{
+    cursor: pointer;
+    background: #f5f5f5;
+    padding: 15px 40px 15px;
+    position: relative;
+    font-weight: 700;
+    /* display: block; */
+}
+
+/* Remove o marcador padrão permitindo que adicione seu próprio marcador */
+.faq-pergunta::marker{
+    content: "";
+}
+/* Adiciona o ícone de + inicial */
+.faq-pergunta::before{
+    content: "+";
+    position: absolute;
+    inset-inline-end: 15px;
+    transition: transform 0.3s ease;
+    font-size: 1.2rem;
+}
+
+/* muda o ícone para - quando estiver aberto */
+.faq-item[open] .faq-pergunta::before{
+    content: "-";
+    transform: rotate(180deg);
+}
+
+.faq-resposta{
+    padding: 15px;
+    background: #ccc;
+    border-top: 10px solid #eee;
+    color: black;
+   
+}
+
+/* página1.html */

@@ -1,6 +1,6 @@
 /* Estilo básico para o corpo da página */
 body {
-/* Corrigindo o seletor do body */
+    /* Corrigindo o seletor do body */
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
@@ -32,7 +32,8 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 15px;
-    width: 250px; /* Ajuste para o seu tamanho original */
+    width: 250px;
+    /* Ajuste para o seu tamanho original */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -48,21 +49,25 @@ button {
 }
 
 #btnAdicionar {
-    background-color: #28a745; /* Verde */
+    background-color: #28a745;
+    /* Verde */
     color: white;
 }
+
 #btnAdicionar:hover {
     background-color: #218838;
 }
 
 #btnRemover {
-    background-color: #dc3545; /* Vermelho */
+    background-color: #dc3545;
+    /* Vermelho */
     color: white;
 }
 
 #btnRemover:hover {
     background-color: #c82333;
 }
+
 /* Arrumando seletores de class para id */
 
 /* Estilo para a área onde as tarefas serão listadas */
@@ -74,5 +79,6 @@ button {
     max-width: 600px;
     background-color: #fff;
     border-radius: 8px;
-    min-height: 50px; /* Para mostrar a área mesmo que vazia */
+    min-height: 50px;
+    /* Para mostrar a área mesmo que vazia */
 }
