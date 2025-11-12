@@ -136,12 +136,15 @@ body {
 
 .sessao-fantasias {
     padding: 20px;
+    color: #35326E;
+    font-size: 20px;
 }
 
 .sessao-titulo {
     font-size: 2rem;
     margin-bottom: 20px;
     margin-top: 10px;
+    color: #35326E;
 }
 
 .titulo-cards {

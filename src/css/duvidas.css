@@ -10,7 +10,14 @@ body {
     color: black;
 }
 
-
+.titulo-duvidas {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 35px;
+    font-size: 25px;
+    color: #35326E;
+}
 
 .logo {
     width: 80px;
@@ -32,8 +39,9 @@ body {
 .cabecalho-menu {
     list-style: none;
     display: flex;
-    margin-right: 500px;
+    margin-right: 514px;
 }
+
 
 .cabecalho-menu li {
     margin-left: 50px;
@@ -45,24 +53,24 @@ body {
     font-size: 20px;
 }
 
-.faq-container{
+.faq-container {
     width: 800px;
     margin: 30px auto;
     background: #F8F4FF;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-    
+
 }
 
-.faq-item{
+.faq-item {
     margin-bottom: 15px;
     border: 1px solid #E6D8F9;
     border-radius: 8px;
     overflow: hidden;
 }
 
-.faq-pergunta{
+.faq-pergunta {
     cursor: pointer;
     background: #FFE4EC;
     padding: 15px 40px 15px;
@@ -71,17 +79,19 @@ body {
     color: #4B3B73;
     /* display: block; */
 }
-.faq-pergunta:hover{
+
+.faq-pergunta:hover {
     background: #FFEDF3;
     color: #3A2E5F;
 }
 
 /* Remove o marcador padrão permitindo que adicione seu próprio marcador */
-.faq-pergunta::marker{
+.faq-pergunta::marker {
     content: "";
 }
+
 /* Adiciona o ícone de + inicial */
-.faq-pergunta::before{
+.faq-pergunta::before {
     content: "+";
     position: absolute;
     inset-inline-end: 15px;
@@ -90,17 +100,28 @@ body {
 }
 
 /* muda o ícone para - quando estiver aberto */
-.faq-item[open] .faq-pergunta::before{
+.faq-item[open] .faq-pergunta::before {
     content: "-";
     transform: rotate(180deg);
 }
 
-.faq-resposta{
+.faq-resposta {
     padding: 15px;
     background: #FFF9FC;
     border-top: 10px solid #E9DBFA;
     color: E9DBFA;
-   
+
 }
 
-/* página1.html */
+footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #35326E;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 165px;
+}
